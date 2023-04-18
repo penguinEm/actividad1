@@ -1,0 +1,90 @@
+/* Estilados generales del body*/
+body {
+    font-family: sans-serif;
+    background-color: gainsboro;
+}
+
+/* Estilado del header y el nav */
+header{
+    background-color: coral;
+    margin: 0;
+    display: flex;
+    border-radius: 7px;
+}
+
+header img{
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    
+}
+
+header a{
+    align-content: center;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    cursor: grab;
+}
+
+.nav-styles{
+    align-content: center;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    cursor: grab;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+/* Estilado del body y los article */
+
+section h1 {
+    text-align: center;
+}
+
+section h2{
+    font-size: 18px;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+section h3{
+    inline-size: max-content;
+    border-style: outset;
+}
+section p {
+    padding: 20px;
+    border-style: groove;
+}
+
+section iframe{
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+}
+
+section img{
+width: 300px;
+height: 300px;
+border-radius: 7px;
+}
+
+/* Estilado del footer*/
+footer{
+    background-color: coral;
+    display: flex;
+    border-radius: 7px;
+
+}
+
+footer h2{
+    padding-left: 20px;
+}
+footer img{
+    width: 25px;
+    align-content: center;
+    padding: 20px;
+}

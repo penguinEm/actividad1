@@ -1,0 +1,107 @@
+/********* Estilados generales del body*******/
+body {
+    font-family: sans-serif;
+    background-color: gainsboro;
+}
+
+/******* Estilados de los articulos********/
+
+.estilo-articulo-lista{
+    border-style: outset;
+    margin-bottom: 5px;
+    inline-size: max-content;
+    display: table-cell;
+}
+.estilo-articulo {
+    display: inline-block;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+
+section article{
+    border-style: outset;
+    margin-top: 1%;
+    border-radius: 7px;
+    box-shadow: ;
+}
+
+section h2{
+    text-decoration: underline;
+    font-size: 19px;
+    padding-left: 10px;
+
+}
+
+section h3{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+section img {
+    width: 300px;
+    height: 300px;
+}
+
+section iframe{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/******** Estilado del header y el nav *********/
+header{
+    background-color: coral;
+    margin: 0;
+    display: flex;
+    border-radius: 7px;
+}
+
+header img{
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    
+}
+
+header a{
+    align-content: center;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    cursor: grab;
+}
+
+.nav-styles{
+    align-content: center;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    cursor: grab;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+
+
+
+/* Estilado del footer*/
+footer{
+    background-color: coral;
+    display: flex;
+    border-radius: 7px;
+
+}
+
+footer h2{
+    padding-left: 20px;
+}
+footer img{
+    width: 25px;
+    align-content: center;
+    padding: 20px;
+}
